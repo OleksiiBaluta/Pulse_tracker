@@ -2,21 +2,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 
     &__logo {
         width: 250px;
 
+
         img {
             width: 100%;
+
         }
     }
 
     &__official {
+        margin-left: -97px;
         color: rgb(255, 255, 255);
         font-size: 12px;
         font-weight: 500;
         line-height: 12px;
         text-align: center;
+
 
         span {
             margin-top: 7px;
@@ -33,6 +38,11 @@
         line-height: 18px;
         letter-spacing: 0px;
         text-decoration: none;
+
+        &:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
     }
 
     &__contacts {
@@ -40,5 +50,6 @@
         row-gap: 4px;
         flex-direction: column;
         align-items: flex-end;
+
     }
 }
