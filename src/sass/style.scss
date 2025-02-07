@@ -43,3 +43,23 @@ img {
     max-width: 950px;
     margin: 0 auto;
 }
+@media (max-width: 1024px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 576px;
+    }
+}
+@media (max-width: 576px){
+    .container{
+        max-width: 480px;
+    }
+}
+@media (max-width: 425px){
+    .container{
+        max-width: 375px;
+    }
+}

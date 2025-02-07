@@ -1,7 +1,7 @@
 .promo {
-    min-height: 650px;
+    
     padding: 21px 0 93px 0;
-    background: url(../../img/bg.png) center (center/cover) no-repeat;
+    background: url(../img/bg.png) center (center/cover) no-repeat;
 
 
     &__wrapper {
@@ -50,6 +50,8 @@
             display: block;
             margin: 0 auto;
             margin-bottom: 20px;
+            width: 44px;
+            height: 44px;
         }
     }
 
@@ -69,3 +71,104 @@
 
     }
 }
+
+@media (max-width: 1024px) {
+    .promo {
+        background-position: 30% 30%;
+    }
+    .promo__header {
+            font-size: 36px;
+        }
+    .promo__subheader {
+            font-size: 18px;
+    }
+    .promo__icon {
+        font-size: 12px;
+    }
+    .promo__link {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px){
+    .promo {
+        background-position: 35% 30%;
+        
+    }
+    .promo__header {
+        font-size: 30px;
+    }
+   .promo__subheader {
+        font-size: 16px;
+    }
+    .promo__icon {
+    font-size: 12px;
+    }
+    .promo__link {
+    font-size: 14px;
+    }
+    .promo__wrapper{
+      margin-top: 45px;
+    }
+    .promo__icons{
+        margin-top: 135px;
+        width: 400px;
+    }
+}
+@media (max-width: 576px){
+    .promo__header {
+        font-size: 26px;
+    }
+    .promo__subheader {
+        font-size: 13px;
+    }
+    .promo__icon {
+        // width: 100px;
+        font-size: 10px;
+        // img{
+        //     width: 34px;
+        //     height: 34px;
+        // }
+    }
+    .promo__link {
+        font-size: 12px;
+    }
+    .promo__wrapper{
+        margin-top: 40px;
+    }
+    .promo__icons{
+        margin-top: 155px; 
+    }    
+}
+@media (max-width: 425px){
+    .promo {
+        background-size: 300% 100%; 
+        padding: 20px 0 40px 0;
+    }
+    .promo__header {
+        font-size: 20px;
+    }
+    .promo__subheader {
+        font-size: 11px;
+    }
+    .promo__icon {
+        width: 80px;
+        font-size: 9px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .promo__link {
+            font-size: 10px;
+    }
+    .promo__wrapper{
+        margin-top: 35px;
+    }
+    .promo__icons{
+        width: 300px;
+        margin-top: 150px; 
+    } 
+    
+}
+
+
