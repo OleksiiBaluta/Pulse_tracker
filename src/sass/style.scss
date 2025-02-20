@@ -57,18 +57,21 @@ img {
 
 @media (max-width: 768px) {
     .container {
-        max-width: 576px;
+        max-width: 560px;
     }
 }
 
 @media (max-width: 576px) {
     .container {
-        max-width: 480px;
+        max-width: none;
+        padding: 0 15px;
     }
 }
 
 @media (max-width: 425px) {
     .container {
-        max-width: 375px;
+        max-width: none;
+        padding: 0 12px;
     }
 }
+

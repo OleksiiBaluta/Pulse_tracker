@@ -57,8 +57,9 @@
     &__content {
         margin-top: 60px;
         display: none;
-        justify-content: space-between;
+        justify-content:center;
         flex-wrap: wrap;
+        column-gap: 18px;
 
         &_active {
             display: flex;
