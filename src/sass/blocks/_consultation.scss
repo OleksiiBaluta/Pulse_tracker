@@ -23,3 +23,66 @@
         text-align: left;
     }
 }
+@media (max-width: 1024px){
+    .consultation{
+        padding-top: 85px;
+    }
+    .consultation__title{
+        font-size: 30px;
+    }
+    .consultation__desc{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px){
+    .consultation{
+        padding: 75px 0 80px 0;
+    }
+    .consultation__title{
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .consultation__desc{
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 576px){
+    .consultation{
+        padding: 55px 0 70px 0;
+    }
+    .consultation__title{
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .consultation__desc{
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 425px){
+    .consultation{
+        padding: 45px 0 60px 0;
+    }
+    .consultation__title{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .consultation__desc{
+        font-size: 11px;
+        line-height: 14px;
+    }
+}
+@media (max-width: 375px){
+    .consultation{
+        padding: 40px 0 55px 0;
+    }
+    .consultation__title{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .consultation__desc{
+        font-size: 9px;
+        line-height: 14px;
+    }
+}

@@ -15,7 +15,7 @@
     }
 
     &__official {
-        margin-left: -97px;
+        margin-left: -64px;
         color: rgb(255, 255, 255);
         font-size: 12px;
         font-weight: 500;
@@ -57,7 +57,7 @@
 @media (max-width: 1024px){
     
     .header__official {
-        margin-left: -77px;
+        margin-left: -64px;
     }
     .header__phone {
         font-size: 16px;
@@ -83,7 +83,7 @@
         width: 140px;
     }
     .header__official {
-        margin-left: -11px;
+        margin-left: -15px;
         font-size: 9px;
         span{
             font-size: 12px;
@@ -113,5 +113,19 @@
     }
 }
 @media (max-width: 375px){
+    .header__logo{
+        width: 115px;
+    }
+    .header__official {
+        margin-left: -8px;
+        font-size: 7px;
+        span{
+            margin-top: 3px;
+            font-size: 9px;
+        }
+    }
+    .header__phone {
+        font-size: 8px;
+    }
     
 }

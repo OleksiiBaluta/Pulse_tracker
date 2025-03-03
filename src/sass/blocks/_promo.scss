@@ -170,5 +170,33 @@
     } 
     
 }
+@media (max-width: 375px){
+    .promo__header {
+        font-size: 18px;
+    }
+    .promo__subheader {
+        margin-top: 0;
+        font-size: 10px;
+    }
+    .promo__icon {
+        width: 70px;
+        height: 60px;
+        font-size: 8px;
+        img{
+            width: 25px;
+            height: 25px;
+        }
+    }
+    .promo__link {
+        font-size: 8px;
+    }
+    .promo__wrapper{
+    margin-top: 40px;
+    }
+    .promo__icons{
+    width: 250px;
+    margin-top: 150px; 
+    }
+}
 
 
