@@ -46,6 +46,23 @@ $(document).ready(function () {
             $('.overlay, #order').fadeIn();
         });
     });
+    
+    function valideForms(form){
+        $(form).validate({
+            rules: {
+                name: 'required',
+                phone: 'required',
+                email: {
+                    required: true,
+                    email: true
+                }
+            }
+        });
+    };
+    valideForms('#consultations-form');
+    valideForms('#consultation form');
+    valideForms('#order form');
+
 });
 
 
